@@ -3,6 +3,7 @@
     background-color: rgb(225, 231, 236);
     text-align: center;
     margin-bottom: 50px;
+    width: auto;
 }
 
 .presentation div#image{
@@ -33,4 +34,103 @@
     text-align: left;
     padding: 25px;
     margin-bottom: -35px;
+}
+.skills-container{
+    margin-bottom: 600px;
+    margin-top: -50px;
+    padding: 25px;
+}
+.skills-title{
+    color:  rgb(64, 148, 116);
+}
+@media(min-width: 1024px){
+    .presentation{
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 5px;
+    }
+    .presentation div#image{
+        background-color: rgb(255, 255, 255);
+        text-align: start;
+        align-content: center;
+        width: auto;
+        height: auto;
+    }
+    .title-axl{
+        position: relative;
+        float: right;
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-top: -500px;
+    }
+    .p-presentation{
+        position: relative;
+        float: right;
+        margin-left: 400px;
+    }
+    .parrafo{
+        position: relative;
+        margin-top: -420px;
+        margin-left: 10px;
+        margin-right: 180px;
+        float: right;
+        width: 80%;
+    }
+    #img-me{
+        margin-left: 50px;
+    }
+    .skills-container{
+        margin-bottom: 600px;
+        margin-top: 10px;
+        padding: 25px;
+    }
+    .skills-title{
+        margin-left: 35px;
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 1200px){
+    .presentation{
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 5px;
+    }
+    .presentation div#image{
+        background-color: rgb(255, 255, 255);
+        text-align: start;
+        align-content: center;
+        width: auto;
+        height: auto;
+    }
+    .title-axl{
+        position: relative;
+        float: right;
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-top: -500px;
+    }
+    .p-presentation{
+        position: relative;
+        float: right;
+        margin-left: 400px;
+    }
+    .parrafo{
+        position: relative;
+        margin-top: -420px;
+        margin-left: 10px;
+        margin-right: 180px;
+        float: right;
+        width: 80%;
+    }
+    #img-me{
+        margin-left: 50px;
+    }
+    .skills-container{
+        margin-bottom: 600px;
+        margin-top: 10px;
+        padding: 25px;
+    }
+    .skills-title{
+        margin-left: 35px;
+        font-size: 40px;
+    }
 }
