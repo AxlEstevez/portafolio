@@ -46,3 +46,14 @@
     color: #ffffff;
     font-family: 'Cabin', sans-serif;
 }
+
+@media(min-width: 1024px){
+    #banner  div#button-view{
+        width: 25%;
+        float: right;
+        margin-top: -55px;
+        margin-right: 50px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+}

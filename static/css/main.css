@@ -77,3 +77,18 @@ footer .container-foot{
     font-family: "Cabin", sans-serif;
     margin-bottom: 0px;
 }
+
+@media(min-width: 1024px){
+    .sociales{
+        width: auto;
+        margin-right: 50px;
+    }
+    footer .container-foot{
+        justify-content: space-between;
+    }
+
+    .copy{
+        margin-top: 18px;
+        margin-left: 25px;
+    }
+}
