@@ -78,11 +78,15 @@ footer .container-foot{
     font-family: "Cabin", sans-serif;
     margin-bottom: 0px;
 }
+.nav{
+    display: none;
+}
 
 @media(min-width: 1024px){
     .sociales{
         width: auto;
         margin-right: 50px;
+        margin-top: 5px;
     }
     footer .container-foot{
         justify-content: space-between;
@@ -91,5 +95,20 @@ footer .container-foot{
     .copy{
         margin-top: 18px;
         margin-left: 25px;
+    }
+    .nav{
+        display: flex;
+        margin-top: 20px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #ffffff;
+        margin: 15px;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .nav a:hover{
+        color: rgb(64, 148, 116);
+        border-bottom: 1px solid rgb(64, 148, 116);
     }
 }
