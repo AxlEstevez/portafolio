@@ -1,0 +1,36 @@
+.presentation{
+    margin-top: 15px;
+    background-color: rgb(225, 231, 236);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.presentation div#image{
+    background-color: rgb(245, 246, 246);
+    width: 100%;
+    padding: 15px;
+}
+
+#img-me{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.title-axl{
+    color: rgb(64, 148, 116);
+    font-family: "Cabin", sans-serif;
+    float: left;
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.p-presentation{
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+    text-align: left;
+    padding: 25px;
+    margin-bottom: -35px;
+}
