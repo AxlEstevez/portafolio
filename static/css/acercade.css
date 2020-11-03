@@ -3,7 +3,7 @@
     background-color: rgb(225, 231, 236);
     text-align: center;
     margin-bottom: 50px;
-    width: auto;
+    width: 100%;
 }
 
 .presentation div#image{
@@ -13,8 +13,8 @@
 }
 
 #img-me{
-    height: 500px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
 }
 
@@ -24,7 +24,7 @@
     float: left;
     margin-top: 10px;
     font-size: 35px;
-    text-align: justify;
+    text-align: center;
     padding: 25px;
 }
 
@@ -35,18 +35,59 @@
     padding: 25px;
     margin-bottom: -35px;
 }
+.skills{
+    align-content: stretch;
+}
 .skills-container{
-    margin-bottom: 600px;
+    margin-bottom: 10px;
     margin-top: -50px;
     padding: 25px;
+    text-align: center;
 }
 .skills-title{
     color:  rgb(64, 148, 116);
 }
+.skills-icon{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+}
+
+#ux-ui{
+    width: 320px;
+    margin: 30px;
+    margin-bottom: -15px;
+}
+
+.mas-de-mi{
+    margin-top: -15px;
+    padding: 25px;
+    text-align: center;
+}
+
+.sobreMi{
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+}
+.lista{
+    margin-top: 15px;
+    padding: 15px
+}
+
+.lista li{
+    list-style-type: none;
+    margin: 15px;
+    color:  rgb(46, 45, 45);
+    font-size: 18px;
+}
+
 @media(min-width: 1024px){
     .presentation{
         background-color: rgb(255, 255, 255);
         margin-bottom: 5px;
+        width: auto;
     }
     .presentation div#image{
         background-color: rgb(255, 255, 255);
@@ -76,7 +117,10 @@
         width: 80%;
     }
     #img-me{
-        margin-left: 50px;
+        margin-left: 60px;
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
     }
     .skills-container{
         margin-bottom: 600px;
@@ -86,6 +130,11 @@
     .skills-title{
         margin-left: 35px;
         font-size: 40px;
+    }
+    .skills-icon{
+        position: relative;
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -104,9 +153,9 @@
     .title-axl{
         position: relative;
         float: right;
-        margin-right: 150px;
-        margin-left: 150px;
-        margin-top: -500px;
+        margin-right: 65px;
+        margin-left: 165px;
+        margin-top: -475px;
     }
     .p-presentation{
         position: relative;
@@ -115,14 +164,15 @@
     }
     .parrafo{
         position: relative;
-        margin-top: -420px;
-        margin-left: 10px;
-        margin-right: 180px;
+        margin-top: -400px;
+        margin-left: 50px;
+        margin-right: 100px;
         float: right;
         width: 80%;
     }
     #img-me{
         margin-left: 50px;
+        margin-top: 25px;
     }
     .skills-container{
         margin-bottom: 600px;
