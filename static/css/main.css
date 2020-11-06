@@ -111,4 +111,7 @@ footer .container-foot{
         color: rgb(64, 148, 116);
         border-bottom: 1px solid rgb(64, 148, 116);
     }
+    #banner-img{
+        content: url("./../images/banner_1.1.png");
+    }
 }
