@@ -82,6 +82,13 @@ footer .container-foot{
     display: none;
 }
 
+#myemail{
+    display: none;
+}
+#cptext{
+    background: none;
+    border: none;
+}
 @media(min-width: 1024px){
     .sociales{
         width: auto;

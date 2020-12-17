@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../static/css/main.css">
     <link rel="shortcut icon" href="./../static/images/logo.png" type="image/x-icon">
+    <script src="./../static/js/sweetalert2.all.min.js"></script>
     <script src="./../static/js/main.js"></script>
     <title>Axl Estevez | Desarrollador web | Acerca de</title>
 </head>
@@ -98,7 +99,12 @@
                 <a href="https://www.linkedin.com/in/axl-rodrigo-estevez-nieto-226b061a4/" target="blanck" class="link-sociales">
                     <img src="./../static/images/sociales/linkedin.png" alt="linkedin" class="icon-sociales">
                 </a>
-                <img src="./../static/images/sociales/panorama.png" alt="outlook" class="icon-sociales" id="outlook" onclick="copyEmail();">
+                
+                <input type="text" id="myemail" value="axlestevez@hotmail.com">
+                <button onclick="copyEmail();" id="cptext">
+                    <img src="./../static/images/sociales/panorama.png" alt="outlook" class="icon-sociales" id="outlook">
+                </button>
+                
             </div>
             <div class="nav">
                 <a href="/">inicio</a>
@@ -110,6 +116,7 @@
                 Copyright &copy; 2020 Axl Estevez °
                 Dise&ntilde;ador y Desarrolador web
             </p>
+            <input type="text" id="myemail" value="axlestevez@hotmail.com">
         </div>
     </footer>
 </body>

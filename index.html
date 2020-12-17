@@ -6,6 +6,7 @@
     <meta name="description" content="Axl Estevez. Web developer">
     <link type="text/css" rel="stylesheet" href="./static/css/main.css">
     <link rel="stylesheet" href="./static/css/fontello.css">
+    <script src="./static/js/sweetalert2.all.min.js"></script>
     <script src="./static/js/main.js"></script>
     <link rel="shortcut icon" href="./static/images/logo.png" type="image/x-icon">
     <title>Axl Estevez | Desarrollador web</title>
@@ -59,7 +60,10 @@
                 <a href="https://www.linkedin.com/in/axl-rodrigo-estevez-nieto-226b061a4/" target="blanck" class="link-sociales">
                     <img src="./static/images/sociales/linkedin.png" alt="linkedin" class="icon-sociales">
                 </a>
-                <img src="./static/images/sociales/panorama.png" alt="outlook" class="icon-sociales" id="outlook" onclick="copyEmail();">
+                <input type="text" value="axlestevez@hotmail.com" id="myemail">
+                <button onclick="copyEmail()" id="cptext">
+                    <img src="./static/images/sociales/panorama.png" alt="outlook" class="icon-sociales" id="outlook">
+                </button>
             </div>
             <div class="nav">
                 <a href="/">inicio</a>
