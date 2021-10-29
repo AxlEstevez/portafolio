@@ -2,58 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./static/images/logo_lila2.png" type="image/x-icon">
-    <title>coming soon</title>
-    <style>
-        body{
-            background-color: #230e34;
-            padding: 0%;
-            margin: 0px;
-            overflow-y: hidden;
-        }
-        .background-image{
-            height: 100%;
-            width: 100%;
-        }
-    </style>
+    <meta name="description" content="Axl Estevez. Web developer">
+    <link type="text/css" rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/fontello.css">
+    <script src="./static/js/sweetalert2.all.min.js"></script>
+    <script src="./static/js/main.js"></script>
+    <link rel="shortcut icon" href="./static/images/logo_act.png" type="image/x-icon">
+    <title>Axl Estevez | Desarrollador web</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container nav">
-          <a class="navbar-brand" href="#">
-              <img src="./static/images/logo_lila2.png" alt="" width="50" height="50">
-          </a>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" target="_blank" aria-current="page" href="https://www.instagram.com/axlestevez/">
-                    <img src="./static/images/socials/1.1.png" alt="instagram" width="50" height="50">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://www.facebook.com/AxlEstevezN">
-                    <img src="./static/images/socials/2.1.png" alt="Facebook" width="50" height="50">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/AxlEstevez">
-                    <img src="./static/images/socials/3.1.png" alt="Github" width="50" height="50">
-                </a>
-              </li>
-              
-            </ul>
-          </div>
+    <header>
+        <div class="container">
+            <img src="./static/images/logo_act.png" id="icon-header" alt="Icon" >
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+
+            <nav class="menu">
+                <a href="/">inicio</a>
+                <a href="">Portafolio</a>
+                <a href="./templates/acercaDe.html">Acerca de</a>
+                <a href="">Contacto</a>
+            </nav>
         </div>
-      </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <img class="background-image" src="./static/images/coming_soon.png" alt="">
+    </header>
+
+    <main>
+        <section id="slogan">
+            <h2 id="presentacion">Axl Estevez Dise&ntilde;ador y 
+                Desarrolador web con residencia en 
+                M&eacute;xico</h2>
+        </section>
+        <section id="banner">
+            <img id="banner-img" src="./static/images/portafolio/banner_responsive.png" alt="liber">
+            <h1>
+                Dise&ntilde;o totalmente responsivo y personalizado. <br>
+                Desarrollo eficaz enfocado a las necesidades.
+            </h1>
+            <div id="button-view" onclick="location.href='./templates/portafolio.html'">
+                <a href="">Ver portafolio</a>
             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-foot">
+            <div class="sociales">
+                <a href="https://www.facebook.com/AxlEstevezN/" target="blank" class="link-sociales">
+                    <img src="./static/images/sociales/facebook.png" alt="Facebook" class="icon-sociales">
+                </a>
+                <a href="https://www.instagram.com/axlestevez/" target="blank" class="link-sociales">
+                    <img src="./static/images/sociales/instagram.png" alt="instagram" class="icon-sociales">
+                </a>
+                <a href="https://github.com/AxlEstevez" target="blank" class="link-sociales">
+                    <img src="./static/images/sociales/github.png" alt="github" class="icon-sociales">
+                </a>
+                <a href="https://www.linkedin.com/in/axl-rodrigo-estevez-nieto-226b061a4/" target="blanck" class="link-sociales">
+                    <img src="./static/images/sociales/linkedin.png" alt="linkedin" class="icon-sociales">
+                </a>
+                <input type="text" value="axlestevez@hotmail.com" id="myemail">
+                <button onclick="copyEmail()" id="cptext">
+                    <img src="./static/images/sociales/panorama.png" alt="outlook" class="icon-sociales" id="outlook">
+                </button>
+            </div>
+            <div class="nav">
+                <a href="/">inicio</a>
+                <a href="">Portafolio</a>
+                <a href="acercaDe.html">Acerca de</a>
+                <a href="">Contacto</a>
+            </div>
+            <p class="copy">
+                Copyright &copy; 2020 Axl Estevez °
+                Dise&ntilde;ador y Desarrolador web
+            </p>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
